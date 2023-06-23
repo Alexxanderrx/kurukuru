@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    background-color: rgb(157, 136, 211);
+    padding: 0;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+
+#fondo {
+    /* background-color: aqua; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#box_00 {
+    /* background-color: aquamarine; */
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    /* background-color: antiquewhite; */
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 10px white;
+    border-style: dashed none dashed none;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /* padding: 5%; */
+}
+
+#kuru_btn {
+    background-color: rgb(45, 36, 99);
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    font-size: 100%;
+    padding: 15px;
+    width: 16vw;
+    font-weight: 700;
+}
+
+#kuru_btn:hover {
+    background-color: rgb(87, 79, 132);
+}
+
+.kuru_img {
+    position: fixed;
+    top: -4%;
+    width: 40%;
+    user-select: none;
+    user-zoom: none;
+    /* border: 1px solid black; */
+}
